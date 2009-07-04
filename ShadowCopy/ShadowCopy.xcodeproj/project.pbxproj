@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D65065C08AD4B330045B027 /* UKShadowCopyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65065B08AD4B330045B027 /* UKShadowCopyAppDelegate.m */; };
+		3D65067008AD4BE10045B027 /* NDAlias.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65066508AD4BE10045B027 /* NDAlias.m */; };
+		3D65067108AD4BE10045B027 /* NDAlias+AliasFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65066708AD4BE10045B027 /* NDAlias+AliasFile.m */; };
+		3D65067208AD4BE10045B027 /* NDResourceFork.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65066908AD4BE10045B027 /* NDResourceFork.m */; };
+		3D65067308AD4BE10045B027 /* NDResourceFork+OtherSorces.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65066B08AD4BE10045B027 /* NDResourceFork+OtherSorces.m */; };
+		3D65067408AD4BE10045B027 /* NSString+NDCarbonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65066D08AD4BE10045B027 /* NSString+NDCarbonUtilities.m */; };
+		3D65067508AD4BE10045B027 /* NSURL+NDCarbonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65066F08AD4BE10045B027 /* NSURL+NDCarbonUtilities.m */; };
+		3D752B0908C074BB00BD23B1 /* NSWorkspace+TypeOfVolumeAtPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D752B0808C074BB00BD23B1 /* NSWorkspace+TypeOfVolumeAtPath.m */; };
+		3D752B2508C07B3100BD23B1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D752B2408C07B3100BD23B1 /* IOKit.framework */; };
+		3D752BEF08C07BC000BD23B1 /* NSString+CarbonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D752BEE08C07BC000BD23B1 /* NSString+CarbonUtilities.m */; };
+		3D76165808B29701009845AC /* SCOnBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D76165408B29701009845AC /* SCOnBarIcon.png */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* ShadowCopy_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowCopy_Prefix.pch; sourceTree = "<group>"; };
+		3D65065A08AD4B330045B027 /* UKShadowCopyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UKShadowCopyAppDelegate.h; sourceTree = "<group>"; };
+		3D65065B08AD4B330045B027 /* UKShadowCopyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = UKShadowCopyAppDelegate.m; sourceTree = "<group>"; };
+		3D65066408AD4BE10045B027 /* NDAlias.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = NDAlias.h; path = ../SVN/NDAlias/NDAlias.h; sourceTree = SOURCE_ROOT; };
+		3D65066508AD4BE10045B027 /* NDAlias.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = NDAlias.m; path = ../SVN/NDAlias/NDAlias.m; sourceTree = SOURCE_ROOT; };
+		3D65066608AD4BE10045B027 /* NDAlias+AliasFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NDAlias+AliasFile.h"; path = "../SVN/NDAlias/NDAlias+AliasFile.h"; sourceTree = SOURCE_ROOT; };
+		3D65066708AD4BE10045B027 /* NDAlias+AliasFile.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NDAlias+AliasFile.m"; path = "../SVN/NDAlias/NDAlias+AliasFile.m"; sourceTree = SOURCE_ROOT; };
+		3D65066808AD4BE10045B027 /* NDResourceFork.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = NDResourceFork.h; path = ../SVN/NDAlias/NDResourceFork.h; sourceTree = SOURCE_ROOT; };
+		3D65066908AD4BE10045B027 /* NDResourceFork.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = NDResourceFork.m; path = ../SVN/NDAlias/NDResourceFork.m; sourceTree = SOURCE_ROOT; };
+		3D65066A08AD4BE10045B027 /* NDResourceFork+OtherSorces.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NDResourceFork+OtherSorces.h"; path = "../SVN/NDAlias/NDResourceFork+OtherSorces.h"; sourceTree = SOURCE_ROOT; };
+		3D65066B08AD4BE10045B027 /* NDResourceFork+OtherSorces.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NDResourceFork+OtherSorces.m"; path = "../SVN/NDAlias/NDResourceFork+OtherSorces.m"; sourceTree = SOURCE_ROOT; };
+		3D65066C08AD4BE10045B027 /* NSString+NDCarbonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSString+NDCarbonUtilities.h"; path = "../SVN/NDAlias/NSString+NDCarbonUtilities.h"; sourceTree = SOURCE_ROOT; };
+		3D65066D08AD4BE10045B027 /* NSString+NDCarbonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSString+NDCarbonUtilities.m"; path = "../SVN/NDAlias/NSString+NDCarbonUtilities.m"; sourceTree = SOURCE_ROOT; };
+		3D65066E08AD4BE10045B027 /* NSURL+NDCarbonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSURL+NDCarbonUtilities.h"; path = "../SVN/NDAlias/NSURL+NDCarbonUtilities.h"; sourceTree = SOURCE_ROOT; };
+		3D65066F08AD4BE10045B027 /* NSURL+NDCarbonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSURL+NDCarbonUtilities.m"; path = "../SVN/NDAlias/NSURL+NDCarbonUtilities.m"; sourceTree = SOURCE_ROOT; };
+		3D752B0708C074BB00BD23B1 /* NSWorkspace+TypeOfVolumeAtPath.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSWorkspace+TypeOfVolumeAtPath.h"; path = "../SVN/UliKit/NSWorkspace+TypeOfVolumeAtPath.h"; sourceTree = SOURCE_ROOT; };
+		3D752B0808C074BB00BD23B1 /* NSWorkspace+TypeOfVolumeAtPath.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSWorkspace+TypeOfVolumeAtPath.m"; path = "../SVN/UliKit/NSWorkspace+TypeOfVolumeAtPath.m"; sourceTree = SOURCE_ROOT; };
+		3D752B2408C07B3100BD23B1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		3D752BED08C07BC000BD23B1 /* NSString+CarbonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSString+CarbonUtilities.h"; path = "../SVN/UliKit/NSString+CarbonUtilities.h"; sourceTree = SOURCE_ROOT; };
+		3D752BEE08C07BC000BD23B1 /* NSString+CarbonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSString+CarbonUtilities.m"; path = "../SVN/UliKit/NSString+CarbonUtilities.m"; sourceTree = SOURCE_ROOT; };
+		3D76165508B29701009845AC /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/SCOnBarIcon.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ShadowCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				3D752B2508C07B3100BD23B1 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D65065A08AD4B330045B027 /* UKShadowCopyAppDelegate.h */,
+				3D65065B08AD4B330045B027 /* UKShadowCopyAppDelegate.m */,
+				3D65067808AD4BE20045B027 /* NDAlias */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				3D752B2408C07B3100BD23B1 /* IOKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ShadowCopy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ShadowCopy */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ShadowCopy;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ShadowCopy_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				3D76165408B29701009845AC /* SCOnBarIcon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D65067808AD4BE20045B027 /* NDAlias */ = {
+			isa = PBXGroup;
+			children = (
+				3D65066408AD4BE10045B027 /* NDAlias.h */,
+				3D65066508AD4BE10045B027 /* NDAlias.m */,
+				3D65066608AD4BE10045B027 /* NDAlias+AliasFile.h */,
+				3D65066708AD4BE10045B027 /* NDAlias+AliasFile.m */,
+				3D65066808AD4BE10045B027 /* NDResourceFork.h */,
+				3D65066908AD4BE10045B027 /* NDResourceFork.m */,
+				3D65066A08AD4BE10045B027 /* NDResourceFork+OtherSorces.h */,
+				3D65066B08AD4BE10045B027 /* NDResourceFork+OtherSorces.m */,
+				3D65066C08AD4BE10045B027 /* NSString+NDCarbonUtilities.h */,
+				3D65066D08AD4BE10045B027 /* NSString+NDCarbonUtilities.m */,
+				3D65066E08AD4BE10045B027 /* NSURL+NDCarbonUtilities.h */,
+				3D65066F08AD4BE10045B027 /* NSURL+NDCarbonUtilities.m */,
+				3D752B0708C074BB00BD23B1 /* NSWorkspace+TypeOfVolumeAtPath.h */,
+				3D752B0808C074BB00BD23B1 /* NSWorkspace+TypeOfVolumeAtPath.m */,
+				3D752BED08C07BC000BD23B1 /* NSString+CarbonUtilities.h */,
+				3D752BEE08C07BC000BD23B1 /* NSString+CarbonUtilities.m */,
+			);
+			name = NDAlias;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ShadowCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D65064F08AD4A190045B027 /* Build configuration list for PBXNativeTarget "ShadowCopy" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowCopy;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ShadowCopy;
+			productReference = 8D1107320486CEB800E47090 /* ShadowCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3D65065308AD4A190045B027 /* Build configuration list for PBXProject "ShadowCopy" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ShadowCopy */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ShadowCopy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				3D76165808B29701009845AC /* SCOnBarIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				3D65065C08AD4B330045B027 /* UKShadowCopyAppDelegate.m in Sources */,
+				3D65067008AD4BE10045B027 /* NDAlias.m in Sources */,
+				3D65067108AD4BE10045B027 /* NDAlias+AliasFile.m in Sources */,
+				3D65067208AD4BE10045B027 /* NDResourceFork.m in Sources */,
+				3D65067308AD4BE10045B027 /* NDResourceFork+OtherSorces.m in Sources */,
+				3D65067408AD4BE10045B027 /* NSString+NDCarbonUtilities.m in Sources */,
+				3D65067508AD4BE10045B027 /* NSURL+NDCarbonUtilities.m in Sources */,
+				3D752B0908C074BB00BD23B1 /* NSWorkspace+TypeOfVolumeAtPath.m in Sources */,
+				3D752BEF08C07BC000BD23B1 /* NSString+CarbonUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		3D76165408B29701009845AC /* SCOnBarIcon.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D76165508B29701009845AC /* English */,
+			);
+			name = SCOnBarIcon.png;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D65065008AD4A190045B027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ShadowCopy_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = ShadowCopy;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		3D65065108AD4A190045B027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ShadowCopy_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = ShadowCopy;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		3D65065208AD4A190045B027 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ShadowCopy_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ShadowCopy;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		3D65065408AD4A190045B027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3D65065508AD4A190045B027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		3D65065608AD4A190045B027 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D65064F08AD4A190045B027 /* Build configuration list for PBXNativeTarget "ShadowCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D65065008AD4A190045B027 /* Debug */,
+				3D65065108AD4A190045B027 /* Release */,
+				3D65065208AD4A190045B027 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		3D65065308AD4A190045B027 /* Build configuration list for PBXProject "ShadowCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D65065408AD4A190045B027 /* Debug */,
+				3D65065508AD4A190045B027 /* Release */,
+				3D65065608AD4A190045B027 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

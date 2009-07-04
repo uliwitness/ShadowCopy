@@ -1,0 +1,5 @@
+ShadowCopy 0.1
+
+Shadow Copy is a small tool that tricks Spotlight into indexing your CDs and DVDs so you can search over them even while they're not inserted. It achieves this by creating folders with aliases to all files of a CD on your hard disk whenever a new volume is mounted.
+
+Includes source code for a background-only app with status item and NDAlias sources for creating alias files.
