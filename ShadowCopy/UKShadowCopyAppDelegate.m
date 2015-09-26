@@ -3,7 +3,6 @@
 // -----------------------------------------------------------------------------
 
 #import "UKShadowCopyAppDelegate.h"
-#import "NDAlias+AliasFile.h"
 #import "NSWorkspace+TypeOfVolumeAtPath.h"
 
 
@@ -179,15 +178,33 @@
 		x++;
 		
 		// Create a new directory for this one, or create an alias if it's a file or package:
+        NSError     *err = nil;
 		BOOL		isDir = NO;
 		[[NSFileManager defaultManager] fileExistsAtPath: srcPath isDirectory: &isDir];
 		if( isDir && ![[NSWorkspace sharedWorkspace] isFilePackageAtPath: srcPath] )
-			[[NSFileManager defaultManager] createDirectoryAtPath: dstPath attributes: [NSDictionary dictionary]];
-		else
 		{
-			NDAlias*	ali = [[NDAlias alloc] initWithPath: srcPath];
-			[ali writeToFile: dstPath];
-			[ali release];
+        	if( ![[NSFileManager defaultManager] createDirectoryAtPath: dstPath withIntermediateDirectories:NO attributes: @{} error: &err] )
+            {
+                NSLog( @"Couldn't create alias data for %@.", srcPath );
+            }
+		}
+        else
+		{
+            NSURL   *url = [NSURL fileURLWithPath: srcPath];
+            NSData  *bookmarkData = [url bookmarkDataWithOptions: NSURLBookmarkCreationSuitableForBookmarkFile includingResourceValuesForKeys: nil relativeToURL: nil error: &err];
+            NSURL   *aliasFileURL = [NSURL fileURLWithPath: dstPath];
+            
+            if( bookmarkData == nil )
+            {
+                NSLog( @"Couldn't create alias data for %@.", srcPath );
+            }
+            else
+            {
+                if( ![NSURL writeBookmarkData:bookmarkData toURL: aliasFileURL options: NSURLBookmarkCreationSuitableForBookmarkFile error: &err] )
+                {
+                    NSLog( @"Couldn't write alias for %@ to %@", srcPath, dstPath );
+                }
+            }
 		}
 		
 		// Every 16 files, update status and process some events to avoid beach ball or penalty by OS:
